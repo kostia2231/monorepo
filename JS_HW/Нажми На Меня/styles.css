@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(246, 246, 246);
+}
+
+p {
+    font-size: 9px;
+    color: rgb(201, 201, 201);
+}
+
+.knopka {
+    font-family: inherit;
+    font-size: 100px;
+    height: 400px;
+    width: 800px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(145, 145, 239);
+    color: rgb(255, 255, 245);
+}
+
+.knopka:hover {
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.knopka:focus {
+    background-color: blue;
+}
+
+.knopka:after {
+    content: 'я не нажата';
+}
+
+.knopka:focus:after {
+    content: 'я нажата';
+    color: red;
+}

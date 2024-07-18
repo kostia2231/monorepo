@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: yellowgreen;
+}
+
+p {
+    margin: 0;
+}
+
+.card {
+    background-color: blueviolet;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+
+.grid {
+    margin: auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+

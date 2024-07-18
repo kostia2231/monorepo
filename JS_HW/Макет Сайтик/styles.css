@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #FFF9E5;
+}
+
+h1 {
+    margin: 8px 0;
+    font-size: 36px;
+    font-weight: 700px;
+    color: #9593FF;
+
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: inherit;
+}
+
+p {
+    margin: 32px 0;
+    font-size: 20px;
+    font-weight: inherit;
+}
+
+.svg {
+    display: none;
+}
+
+.menu {
+    background-color: #9593FF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    gap: 8px;
+    padding: 8px;
+    min-width: 320px;
+    max-width: 320px;
+    height: 728px;
+}
+
+.punkt-menu {
+    background-color: white;
+    height: 32px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.text {
+    padding: 8px;
+    margin: 0;
+    margin-left: 32px;
+    max-width: 1024px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .svg {
+        display: none;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .menu {
+        min-width: 180px;
+        max-width: 180px;
+        height: 1000px;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .punkt-menu {
+        height: 32px;
+        width: 160px;
+    }
+
+    h1 {
+        font-size: 28px;
+
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .svg {
+        display: block;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .menu {
+        min-width: 48px;
+        max-width: 48px;
+        height: 900px;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        padding: 8px 0 0 0;
+    }
+
+    .punkt-menu {
+        height: 32px;
+        width: 32px;
+    }
+
+    .text {
+        padding: 0;
+        margin: 0;
+        margin-left: 8px;
+        margin-right: 8px;
+        max-width: 1024px;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 18px;
+
+    }
+
+    p {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+
+
+
+}

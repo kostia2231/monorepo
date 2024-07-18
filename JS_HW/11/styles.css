@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: monospace;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  background-color: gray;
+  color: yellow;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.form-wrapper {
+  display: flex;
+  background-color: yellow;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}

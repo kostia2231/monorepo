@@ -1,0 +1,112 @@
+.img-one {
+    background-image: url(https://cdn.theatlantic.com/thumbor/d8lh_KAZuOgBYslMOP4T0iu9Fks=/0x62:2000x1187/1600x900/media/img/mt/2018/03/AP_325360162607/original.jpg);
+}
+.img-two {
+    background-image: url(https://images.ctfassets.net/7hqiona4456t/3ByEBqo9zsrhjYHn5ixdis/b1051049467b6e5e779351d81eceb3e5/Manx_cat_breed_library.jpg);
+}
+.img-three {
+    background-image: url(https://basepaws.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F7hqiona4456t%2F1fHHcJ1DiaJ8ZcT1D8Z6kr%2F22d04442186bd2065671a0c31383e323%2FAmerican_Bobtail.jpg&w=640&q=75);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+button {
+    background-color: white;
+    border: 0;
+    border-radius: 7px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    color: rgb(92, 92, 92);
+    font-family: inherit;
+}
+
+button:hover {
+    background-color:#181818;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 20px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.card-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 7px 7px 0 0;
+}
+
+
+@media (max-width: 950px) {
+    .card {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
